@@ -1,0 +1,19 @@
+# Attendance Helper - Python Dependencies
+# Install with: python -m pip install -r requirements.txt
+#
+# Note: Use Python 3.11 for best compatibility (pyaudio has issues on 3.12+)
+#   py -3.11 -m venv venv
+#   venv\Scripts\activate
+#   python -m pip install -r requirements.txt
+
+# Audio playback (plays your recorded voice into VB-Cable)
+sounddevice>=0.4.6
+soundfile>=0.12.1
+numpy>=1.24.0
+
+# Speech recognition (listens for your name)
+SpeechRecognition>=3.10.0
+pyaudio>=0.2.13
+
+# Global hotkey support (press F9 to manually trigger)
+keyboard>=0.13.5

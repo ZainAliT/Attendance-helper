@@ -1,0 +1,40 @@
+# Virtual environment
+venv/
+venv311/
+env/
+.env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# User config (contains personal info — name, file paths)
+.attendance_helper.json
+
+# Audio files (personal recordings — don't share yours!)
+*.mp3
+*.wav
+*.ogg
+*.flac
+*.m4a
+*.mp4
+*.aac
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.spec
